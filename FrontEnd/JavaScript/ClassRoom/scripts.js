@@ -1,7 +1,6 @@
-// Constantes
-// Constantes sao valores que nao vao mudar durante o script
+// Hoisting
 
-const name = "Pedro"
+// O Hoisting de variaveis acontece somente com var, porque var é uma variavel de escopo global e também é considerada má pratica, mas é interessante saber disso
+console.log(name)
 
-// Se eu tentar mudar, da erro
-// name = "Kathleen"
+var name = "Pedro"
