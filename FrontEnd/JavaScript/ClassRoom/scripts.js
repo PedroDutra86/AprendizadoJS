@@ -1,11 +1,7 @@
-/* 
-    Quando uma lingaugem de programação é case-sensitive significa que ela é sensível a letras maiúsculas e minúsculas.
+// Constantes
+// Constantes sao valores que nao vao mudar durante o script
 
-    Por exemplo: "Pedro" é considerado diferente de "pedro"
-*/
+const name = "Pedro"
 
-let procuct = "Teclado Mecânico"
-let Product = "Mouse"
-
-console.log(procuct)
-console.log(Product)
+// Se eu tentar mudar, da erro
+// name = "Kathleen"
