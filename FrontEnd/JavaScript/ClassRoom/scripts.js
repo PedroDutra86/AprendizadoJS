@@ -1,11 +1,11 @@
-// Variáveis
-// É um espaço utilizado na Memoria RAM para armazenar valores
+/* 
+    Quando uma lingaugem de programação é case-sensitive significa que ela é sensível a letras maiúsculas e minúsculas.
 
-// Declarando variavel sem valor
-let user
+    Por exemplo: "Pedro" é considerado diferente de "pedro"
+*/
 
-// Declarando variavel com valor
-let email = "Pedrodutra86@hotmail.com"
+let procuct = "Teclado Mecânico"
+let Product = "Mouse"
 
-// Substituindo o valor da variavel
-email = "Kathleencouto@hotmail.com"
+console.log(procuct)
+console.log(Product)
